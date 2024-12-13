@@ -3,10 +3,7 @@ name: Build Executable
 on:
   push:
     branches:
-      - main  # Change this to your default branch
-  pull_request:
-    branches:
-      - main  # Change this to your default branch
+      - master
 
 jobs:
   build:

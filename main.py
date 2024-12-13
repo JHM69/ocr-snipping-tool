@@ -1,6 +1,5 @@
 import sys
-import json
-import webbrowser
+import json 
 from datetime import datetime
 
 import numpy as np
@@ -175,7 +174,7 @@ class SnippingWidget(QtWidgets.QWidget):
                 ocr_processor = TesseractOCR(tesseract_path=self.tesseract_path)
                 text = ocr_processor.extract_text(img_np, self.language)
             elif self.ocr_engine == 'gemini':
-                ocr_processor = GeminiOCR(api_key=self.gemini_api_key)
+                ocr_processor = GeminiOCR()
                 text = ocr_processor.extract_text(img, self.language)
             else:
                 text = ""
@@ -567,11 +566,11 @@ class Menu(QMainWindow):
         Called when OCR mode is changed from the combo box.
         """
         selected_mode = self.ocr_mode_selector.currentText()
-        if selected_mode == "Tesseract":
+        if (selected_mode == "Tesseract"):
             self.set_ocr_engine('tesseract', self.language)
             self.gemini_api_key_input.show()
             self.tesseract_path_input.show()
-        elif selected_mode == "Gemini":
+        elif (selected_mode == "Gemini"):
             self.set_ocr_engine('gemini', self.language)
             self.tesseract_path_input.show()
             self.gemini_api_key_input.show()

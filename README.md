@@ -24,8 +24,8 @@ Setting
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/JHM69/bangla_ocr_snippin_tool.git
-   cd bangla_ocr_snippin_tool
+   git clone https://github.com/JHM69/ocr-snipping-tool.git
+   cd ocr-snipping-tool
    ```
 
 2. Install the required packages:

@@ -1,0 +1,9 @@
+PyQt5
+opencv-python
+numpy
+pytesseract
+pyperclip3
+python-dotenv
+requests
+google-generativeai==0.8.1
+pillow

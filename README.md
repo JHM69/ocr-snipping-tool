@@ -1,5 +1,5 @@
 # OCR Snipping Tool
-# A snipping tool to Extract Bangla Text By snipping using cursor from anywhere on the screen.
+# A snipping tool to Extract Text By snipping using cursor from anywhere on the screen.
 
 Demo
 ![Demo](/demo.gif)

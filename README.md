@@ -33,6 +33,7 @@ Setting
    pip install -r requirements.txt
    ```
 
+
 3. **Tesseract Setup:**
    - **Windows:**
      1. Download the Tesseract installer from [Tesseract at UB Mannheim](https://github.com/UB-Mannheim/tesseract/wiki).
